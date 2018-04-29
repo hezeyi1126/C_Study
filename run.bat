@@ -1,8 +1,8 @@
-﻿@echo off
+@echo off
 color 0E
-echo 编译中。。。
+echo compiling..
 gcc %1 -o %~p1%~n1
-echo 运行结果 :
+echo results:
 echo -------------------------------------------------------------------------
 %~n1
 pause
