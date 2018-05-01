@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-	char a = 0xff;
+	char a = 0xfff;
 	int b = 0;
 	printf("%c\n", a);
 	printf("%d\n", a);
