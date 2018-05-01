@@ -1,0 +1,5 @@
+﻿运行编译配置
+
+{
+	"shell_cmd": "gcc $file_name -o $file_base_name && $file_base_name"
+}
